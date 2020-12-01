@@ -17,7 +17,7 @@
         </div>
         <nav>
             <ul class="header-navigation">
-                <li class="header-navigation__item"><a href="#"><span class="marker">HOME</span></a></li>
+                <li class="header-navigation__item"><a href="#">HOME</a></li>
                 <li class="header-navigation__item"><a href="#">PROJECTS</a></li>
                 <li class="header-navigation__item"><a href="#">MEASUREMENT</a></li>
                 <li class="header-navigation__item"><a href="#">TEAM</a></li>
@@ -25,7 +25,7 @@
                 <li class="header-navigation__item"><a href="#">CANTACTS</a></li>
             </ul>
         </nav>
-        <div class="phone">+7 (928) 768-32-39</div>
+        <a href="#" class="phone">+7 (928) 768-32-39</a>
         <button class="button button__header">REQUEST A CALL</button>
     </div>
 </header>
@@ -40,16 +40,16 @@
                 cost of materials due to the organization of work</p>
         </div>
         <div class="wrapper section-wrapper">
-            <button class="main-img__button-1 main-img__button-styles">CALCULATE THE COST</button>
-            <button class="main-img__button-2 main-img__button-styles">SUBMIT YOUR APPLICATION</button>
+            <button class="main-img__button-1 main-img__button-styles"><span class="media-main-img__button-1">CALCULATE THE COST</span></button>
+            <button class="main-img__button-2 main-img__button-styles main-img__fullscr-button">SUBMIT YOUR APPLICATION</button>
+            <button class="main-img__button-2 main-img__button-styles main-img__mob-button"><span class="media-main-img__button-2">APPLICATION</span></button>
         </div>
         <div class="overlay"></div>
     </section>
     <section class="completed-projects">
         <div class="wrapper">
             <ul class="completed-nav">
-                <li class="completed-nav__item"><a href="#"><span
-                        class="completed-nav__active">Rostov-on-Don, Admiral</span></a></li>
+                <li class="completed-nav__item"><a href="#">Rostov-on-Don, Admiral</a></li>
                 <li class="completed-nav__item"><a href="#">Sochi Thieves</a></li>
                 <li class="completed-nav__item"><a href="#">Rostov-on-Don Patriotic</a></li>
             </ul>
@@ -65,6 +65,19 @@
                             on the site. For 14 years on in the construction<br/>
                             market we have made happy more than 1000 families
                         </p>
+                        <p class="completed-projects__dignity-media">
+                            Only a small part of the work performed by our company is<br/>
+                            presented on the site. For 14 years on in the construction<br/>
+                            market we have made hay more than 1000 families
+                        </p>
+                        <div class="mobile-slider">
+                            <div class="mobile-slider-button mobile-slider-button__position">
+                                <img src="images/mobile-button.svg">
+                            </div>
+                            <div class="mobile-slider-button__revers mobile-slider-button__position">
+                                <img src="images/mobile-button.svg">
+                            </div>
+                        </div>
                         <div class="dignity-text">
                             <div class="dignity-text__content">
                                 <div class="dignity-block1">
@@ -106,8 +119,7 @@
                         </div>
                         <div class="slider">
                             <div>
-                                <img src="./images/Vector%20(Stroke)1.png">
-                                <img src="./images/Vector%20(Stroke).png" class="vector-straight vector-straight__left">
+                                <img src="./images/left.svg" class="vector-straight">
                             </div>
                             <div class="circles-check">
                                 <div class="circle circle-active"></div>
@@ -115,14 +127,12 @@
                                 <div class="circle"></div>
                             </div>
                             <div>
-                                <img src="./images/Vector%20(Stroke).png"
-                                     class="vector-straight vector-straight__righte">
-                                <img src="./images/Vector%20(Stroke)1.png" class="vector-arrow">
+                                <img src="./images/right.svg" class="vector-straight">
                             </div>
                         </div>
                     </div>
                 </div>
-                <img src="./images/image%202.png" class="completed-projects__img"/>
+                <img src="./images/image%202.jpg" class="completed-projects__img"/>
             </div>
         </div>
     </section>
@@ -135,13 +145,19 @@
                 <div class="camera-section">
                     <div class="camera-section__line"></div>
                     <div class="camera-section">
-                        <img src="images/image%203.png" class="camera-img">
+                        <img src="images/camera.svg.svg" class="camera-img">
                     </div>
                     <div class="camera-section__line"></div>
                 </div>
                 <div class="video">
                     <img src="images/image%204.jpg" class="video-img">
-                    <div class="play-video"><img src="./images/Polygon.png"></div>
+                    <div class="play-video"><img src="images/Polygon.png"></div>
+                </div>
+                <div class="mob-video">
+                    <div>
+                        <img src="images/play-mob-video.svg" class="play-mob-video">
+                    </div>
+                    <div class="overlay"></div>
                 </div>
                 <div class="separator"></div>
                 <p class="video-txt">At each facility, a camera is installed that broadcasts the progress of work on the<br/>
@@ -150,21 +166,24 @@
                     You can watch the live broadcast from one of our facilities!<br/> Leave a request below and you will
                     receive a link
                     to the broadcast.</p>
+                <p class="video-txt-mobile">At each facility, a camera is installed that broadcasts the progress of<br/>
+                    work on the clock. At any time, you can go to our website and<br/>
+                    monitor the progress of work in your apartment. You<br/>
+                    can watch the live broadcast from one of our facilities!<br/>
+                    Leave a request below and you will receive a link to the broadcast.</p>
                 <form class="registration-form">
                     <div class="first-form-section">
                         <label class="label-style">
                             <span class="input-name">Name</span><br/>
-                            <span class="input-txt">What is your name:</span>
-                            <input class="input-style"/>
+                            <input class="input-style" placeholder="What is your name:"/>
                             <div class="input-border"></div>
                         </label>
                         <label class="label-style">
                             <span class="input-name">Phone</span><br/>
-                            <span class="input-txt">Your phone number:</span>
-                            <input class="input-style"/>
+                            <input class="input-style" placeholder="Your phone number:"/>
                             <div class="input-border"></div>
                         </label>
-                        <button class="registration-form__button">submit</button>
+                        <button class="registration-form__button all-button">submit</button>
                     </div>
                     <div class="first-checkbox">
                         <label class="label-checkbox">
@@ -173,6 +192,28 @@
                             <span class="checkbox-txt">I agree to the processing of personal data.</span>
                         </label>
                     </div>
+                </form>
+                <form class="first-mob-registration-form">
+                    <div>
+                        <label class="advantage-label">
+                            <span class="advantage-label__name">Name</span><br/>
+                            <input class="advantage__input-style" placeholder="What is your name:"/>
+                            <div class="advantage-label__input-border"></div>
+                        </label>
+                        <label class="advantage-label">
+                            <span class="advantage-label__name">Phone</span><br/>
+                            <input class="advantage__input-style" placeholder="Your phone number:"/>
+                            <div class="advantage-label__input-border"></div>
+                        </label>
+                    </div>
+                    <div class="advantage-checkbox">
+                        <label class="label-checkbox">
+                            <input type="checkbox" class="checkbox">
+                            <span class="fake"></span>
+                            <span class="advantage-checkbox__txt">I agree to the processing of personal data</span>
+                        </label>
+                    </div>
+                        <button class="advantage-registration_form__button all-button">Sumbit</button>
                 </form>
             </div>
         </div>
@@ -183,7 +224,7 @@
             <div class="camera-section">
                 <div class="camera-section__line"></div>
                 <div class="camera-section">
-                    <img src="images/image5.png" class="camera-img">
+                    <img src="images/tools.svg" class="camera-img">
                 </div>
                 <div class="camera-section__line"></div>
             </div>
@@ -281,20 +322,17 @@
                         <div class="advantage-registration_form__firs-section">
                             <label class="advantage-label">
                                 <span class="advantage-label__name">Name</span><br/>
-                                <span class="advantage-label__txt">What is your name:</span>
-                                <input class="advantage__input-style"/>
+                                <input class="advantage__input-style advantage-label__txt" placeholder="What is your name:"/>
                                 <div class="advantage-label__input-border"></div>
                             </label>
                             <label class="advantage-label">
                                 <span class="advantage-label__name">Phone</span><br/>
-                                <span class="advantage-label__txt">Your phone number:</span>
-                                <input class="advantage__input-style"/>
+                                <input class="advantage__input-style advantage-label__txt" placeholder="Your phone number:"/>
                                 <div class="advantage-label__input-border"></div>
                             </label>
                             <label class="advantage-label">
                                 <span class="advantage-label__name">Email</span><br/>
-                                <span class="advantage-label__txt">Your email:</span>
-                                <input class="advantage__input-style"/>
+                                <input class="advantage__input-style advantage-label__txt" placeholder="Your email:"/>
                                 <div class="advantage-label__input-border"></div>
                             </label>
                         </div>
@@ -306,13 +344,12 @@
                             </label>
                         </div>
                         <div class="advantage-button-wrapper">
-                            <button class="advantage-registration_form__button">Call the measurer</button>
+                            <button class="advantage-registration_form__button all-button">Call the measurer</button>
                         </div>
                     </form>
                     <div class="pig-wrapper">
                         <div class="pig">
-                            <img src="images/pig.png" class="pig-img">
-                            <img src="images/$.png" class="dollar-img">
+                            <img src="images/pig.svg" class="pig-img">
                         </div>
                         <p class="pig-txt">Help save 10 - 20% of the<br/>
                             cost of materials</p>
@@ -334,33 +371,47 @@
                     </div>
                     <div class="your-fantasies__ul">
                         <ul>
-                            <li class="your-fantasies__li-active">American classic</li>
-                            <li class="your-fantasies__li">Empire</li>
-                            <li class="your-fantasies__li">Classical</li>
-                            <li class="your-fantasies__li">Loft</li>
-                            <li class="your-fantasies__li">Minimalism</li>
-                            <li class="your-fantasies__li">Provence</li>
-                            <li class="your-fantasies__li">Romanticism</li>
-                            <li class="your-fantasies__li">Scandinavian style</li>
-                            <li class="your-fantasies__li">Mediterranean style</li>
-                            <li class="your-fantasies__li">High tech</li>
-                            <li class="your-fantasies__li">Eclisticism</li>
+                            <li class="your-fantasies__li"><a href="#">American classic</a></li>
+                            <li class="your-fantasies__li"><a href="#">Empire</a></li>
+                            <li class="your-fantasies__li"><a href="#">Classical</a></li>
+                            <li class="your-fantasies__li"><a href="#">Loft</a></li>
+                            <li class="your-fantasies__li"><a href="#">Minimalism</a></li>
+                            <li class="your-fantasies__li"><a href="#">Provence</a></li>
+                            <li class="your-fantasies__li"><a href="#">Romanticism</a></li>
+                            <li class="your-fantasies__li"><a href="#">Scandinavian style</a></li>
+                            <li class="your-fantasies__li"><a href="#">Mediterranean style</a></li>
+                            <li class="your-fantasies__li"><a href="#">High tech</a></li>
+                            <li class="your-fantasies__li"><a href="#">Eclisticism</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="your-fantasies__photosection">
                     <div class="your-fantasies__first-photos">
-                        <img src="images/time.png" class="time">
-                        <img src="images/tele.png" class="tele">
+                        <img src="images/time.jpg" class="time">
+                        <img src="images/tele.jpg" class="tele">
                     </div>
                     <div class="your-fantasies__second-photos">
-                        <img src="images/sofa.png" class="sofa">
-                        <img src="images/flower.png">
+                        <img src="images/sofa.jpg" class="sofa">
+                        <img src="images/flower.jpg">
                     </div>
                 </div>
             </div>
         </div>
         <div class="overlay"></div>
+    </section>
+    <section class="section5-mob">
+        <h2>
+            We realize your<br/>
+            wildest fantasies
+        </h2>
+        <div class="mobile-slider-section5">
+            <div class="mobile-slider-button">
+                <img src="images/mobile-button.svg">
+            </div>
+            <div class="mobile-slider-button__revers">
+                <img src="images/mobile-button.svg">
+            </div>
+        </div>
     </section>
     <section class="section6-padding">
         <div class="wrapper">
@@ -368,7 +419,7 @@
             <div class="camera-section">
                 <div class="camera-section__line"></div>
                 <div class="camera-section">
-                    <img src="images/hands.png" class="camera-img">
+                    <img src="images/hands.svg" class="camera-img">
                 </div>
                 <div class="camera-section__line"></div>
             </div>
@@ -380,7 +431,7 @@
                     <div class="our-client-border">
                         <div class="our-client-img">
                             <div>
-                                <img src="images/1client.png" class="client">
+                                <img src="images/1client.jpg" class="client">
                             </div>
                             <p class="our-client-name">Fedosova Maria<br/>
                                                        Konstantinovna
@@ -400,17 +451,17 @@
                             masters.
                         </p>
                         <div class="info-bord">
-                            <img src="images/floor.png" class="floor">
+                            <img src="images/floor.svg" class="floor">
                             <p class="info-bord-txt">40 m2</p>
-                            <img src="images/vertical.png" class="vertical">
-                            <img src="images/note.png" class="note">
+                            <img src="images/vertical.svg" class="vertical">
+                            <img src="images/note.svg" class="note">
                             <p class="info-bord-txt">48 days</p>
                         </div>
                     </div>
                     <div class="our-client-border">
                         <div class="our-client-img">
                             <div>
-                                <img src="images/2client.png" class="client">
+                                <img src="images/2client.jpg" class="client">
                             </div>
                             <p class="our-client-name">Afanasyev Sergey<br/>
                                                        Alexandeovich
@@ -430,17 +481,17 @@
                             masters.
                         </p>
                         <div class="info-bord">
-                            <img src="images/floor.png" class="floor">
+                            <img src="images/floor.svg" class="floor">
                             <p class="info-bord-txt">90 m2</p>
-                            <img src="images/vertical.png" class="vertical">
-                            <img src="images/note.png" class="note">
+                            <img src="images/vertical.svg" class="vertical">
+                            <img src="images/note.svg" class="note">
                             <p class="info-bord-txt">128 days</p>
                         </div>
                     </div>
                     <div class="our-client-border">
                         <div class="our-client-img">
                             <div>
-                                <img src="images/3client.png" class="client">
+                                <img src="images/3client.jpg" class="client">
                             </div>
                             <p class="our-client-name">Kiriev Egor<br/>
                                                        Leonidovich
@@ -460,10 +511,10 @@
                             masters.
                         </p>
                         <div class="info-bord">
-                            <img src="images/floor.png" class="floor">
+                            <img src="images/floor.svg" class="floor">
                             <p class="info-bord-txt">56 m2</p>
-                            <img src="images/vertical.png" class="vertical">
-                            <img src="images/note.png" class="note">
+                            <img src="images/vertical.svg" class="vertical">
+                            <img src="images/note.svg" class="note">
                             <p class="info-bord-txt">86 days</p>
                         </div>
                     </div>
@@ -478,22 +529,19 @@
                 <div class="form-section-one">
                     <label class="last-label-style">
                         <span class="last-input-name">Name</span><br/>
-                        <span class="last-input-txt">What is your name:</span>
-                        <input class="last-input-style__section-one"/>
+                        <input class="last-input-style__section-one last-input-txt" placeholder="What is your name:"/>
                         <div class="last-input-border__section-one"></div>
                     </label>
                     <label class="last-label-style">
                         <span class="last-input-name">Phone</span><br/>
-                        <span class="last-input-txt">Your phone number:</span>
-                        <input class="last-input-style__section-one"/>
+                        <input class="last-input-style__section-one last-input-txt" placeholder="Your phone number:"/>
                         <div class="last-input-border__section-one"></div>
                     </label>
                 </div>
                 <div class="form-section-two">
                     <label class="last-label-style">
                         <span class="last-input-name">Question</span><br/>
-                        <span class="last-input-txt">I want to know:</span>
-                        <input class="last-input-style__section-two"/>
+                        <input class="last-input-style__section-two last-input-txt" placeholder="I want to know:"/>
                         <div class="last-input-border__section-two"></div>
                     </label>
                 </div>
@@ -504,22 +552,64 @@
                         <span class="last-checkbox-txt">I agree to the processing of personal data</span>
                     </label>
                 </div>
-                <button class="last-form-button">Submit</button>
+                <button class="last-form-button all-button">Submit</button>
             </form>
             <h2 class="adres">Rostov-on-Don, Nansen St., 239 Shopping Center<br/>
                 Decorum Tel +7 (928) 768 32 29
             </h2>
             <div class="social">
                 <div class="our-social">
-                    <img src="images/message.png" class="message">
+                    <img src="images/message1.svg" class="message">
                 </div>
                 <div class="our-social">
-                    <img src="images/inst.png" class="inst">
+                    <img src="images/inst1.svg" class="inst">
                 </div>
             </div>
-            <img src="images/map.png" class="map">
+            <img src="images/map.jpg" class="map">
         </div>
         <div class="overlay"></div>
+    </section>
+    <section class="section7-mob">
+        <h3>have any questions?</h3>
+        <form class="first-mob-registration-form">
+            <div>
+                <label class="advantage-label">
+                    <span class="advantage-label__name">Name</span><br/>
+                    <input class="advantage__input-style" placeholder="What is your name:"/>
+                    <div class="advantage-label__input-border"></div>
+                </label>
+                <label class="advantage-label">
+                    <span class="advantage-label__name">Phone</span><br/>
+                    <input class="advantage__input-style" placeholder="Your phone number:"/>
+                    <div class="advantage-label__input-border"></div>
+                </label>
+                <label class="advantage-label">
+                    <span class="advantage-label__name">Question</span><br/>
+                    <input class="advantage__input-style" placeholder="I want to know:"/>
+                    <div class="advantage-label__input-border"></div>
+                </label>
+            </div>
+            <div class="advantage-checkbox">
+                <label class="label-checkbox">
+                    <input type="checkbox" class="checkbox">
+                    <span class="fake"></span>
+                    <span class="advantage-checkbox__txt">I agree to the processing of personal data</span>
+                </label>
+            </div>
+            <button class="advantage-registration_form__button all-button">Sumbit</button>
+        </form>
+        <img src="images/map.jpg" class="mob-map">
+        <h2>Rostov-on-Don, Nansen St., 239<br/>
+            Shopping Center Decorum<br/>
+            Tel +7 (928) 768 32 29</h2>
+        <div class="social-mob">
+            <div class="our-social">
+                <img src="images/message1.svg" class="message">
+            </div>
+            <div class="our-social">
+                <img src="images/inst1.svg" class="inst">
+            </div>
+        </div>
     </section>
 </main>
 <footer class="header">
